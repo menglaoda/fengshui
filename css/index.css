@@ -325,6 +325,7 @@ body{
     }
     .nav li{
     	width: 33%;
+    	font-size: 12px;
     }
     .nav li span{
     	width: 100%;
@@ -348,7 +349,7 @@ body{
 		position: absolute;
 		right: 5%;
 		top: 500px;	
-		padding: 20px 0px;
+		padding: 30px 0px;
 	}
 	.vid video{
 		width: 100%;
