@@ -8,12 +8,15 @@ app.directive("myList",function(){
 				element.parent().parent().children().children().removeClass("back");
 				//添加背景
 				element.addClass("back");
-				if(this.getAttribute("id")=="btnlist"){
-					document.body.style.background = "url(img/timg1.png) no-repeat #1d1916";
-					document.body.style.backgroundSize="100% 100%";					
-				}else{
-					document.body.style.background = "url(img/timg.png) no-repeat #1d1916";
-					document.body.style.backgroundSize="100% 100%";
+				//切换大的背景图
+				if(document.body.offsetWidth>415){
+					if(this.getAttribute("id")=="btnlist"){
+						document.querySelector(".bjimg").style.background = "url(img/timg1.png) no-repeat #1d1916";
+						document.querySelector(".bjimg").style.backgroundSize="100% 100%";					
+					}else{
+						document.querySelector(".bjimg").style.background = "url(img/timg.png) no-repeat #1d1916";
+						document.querySelector(".bjimg").style.backgroundSize="100% 100%";
+					}
 				}
 			})
 		}

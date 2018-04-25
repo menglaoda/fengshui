@@ -14,16 +14,22 @@ html,body{
     url('../fontf/ruizibige.svg#ruizibige') format('svg'); /*Chrome4+,Safari3.1+,Opera10.0+,iOS Mobile Safari3.2+*/
 }
 body{
+	font-family:"仿宋",gbg;	
+}
+.bjimg{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
 	background: url(../img/timg.png) no-repeat #1d1916 ;
 	background-size: 100% 100%;
-	font-family:"仿宋",gbg;
-	
 }
 .logo{
 	width: 150px;
 	position: absolute;
-	left: 2%;
-	top: 22px;
+	left: 5%;
+	top: 20px;
 }
 .nav{
 	list-style: none;
@@ -305,4 +311,40 @@ body{
 	position: absolute;
 	right: 15%;
 	top: 250px;
+}
+@media all and (max-width: 415px) {
+	.bjimg{
+		background: url(../img/bb2.jpg) no-repeat #fdfdf5 ;
+	}
+	.logo{
+		width: 80px;
+	}
+	.nav{
+		width: 90%;
+		left: 5%;
+    }
+    .nav li{
+    	width: 33%;
+    }
+    .content{
+		width: 90%;
+		position: absolute;
+		right: 5%;
+		top: 230px;
+	}
+	.content img{
+		width: 90%;
+	}
+	.vid{
+		width: 90%;
+		height: 200px;
+		position: absolute;
+		right: 5%;
+		top: 500px;	
+		padding: 20px 0px;
+	}
+	.vid video{
+		width: 100%;
+		height: 200px;
+	}
 }
