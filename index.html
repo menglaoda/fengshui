@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+		<title></title>
+		<link type="text/css" href="css/index.css" rel="stylesheet" />
+		<script src="js/angular.js"></script>
+		<script src="js/angular-route.js"></script>		
+	</head>
+	<body >
+		<img class="logo" src="img/dblogo.png" />
+		<ul class="nav">
+			<a href="#/home"><li id="li1" class="nav_li1 back" my-list >
+				<span>天涯居士</span>
+				<em>Tianyajushi</em>
+			</li></a>
+			<a href="#/list"><li my-list>
+				<span>优秀案例</span>
+				<em>Youxiuanli</em>
+			</li></a>
+			<a href="#/jieda"><li my-list>
+				<span>疑问解答</span>
+				<em>Yiwenjieda</em>
+			</li></a>
+			<a href="#/pingjia" ><li my-list id="btnlist">
+				<span>客户评价</span>
+				<em>kehupingjia</em>
+			</li></a>
+			<a href="#/heying"><li my-list>
+				<span>客户合影</span>
+				<em>Kehuheying</em>
+			</li></a>
+			<a href="#/meiti"><li my-list>
+				<span>媒体报道</span>
+				<em>Meitibaodao</em>
+			</li></a>
+			<a href="#/hezuo"><li my-list>
+				<span>合作单位</span>
+				<em>Hezuodanwei</em>
+			</li></a>
+		</ul>
+		<div ng-view></div>
+	</body>
+	<script src="js/index.js"></script>
+</html>
