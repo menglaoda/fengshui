@@ -326,6 +326,10 @@ body{
     .nav li{
     	width: 33%;
     }
+    .nav li span{
+		font-size: 18px;
+		font-weight: 900;
+	}
     .content{
 		width: 90%;
 		position: absolute;
