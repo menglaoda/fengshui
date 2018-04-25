@@ -345,10 +345,10 @@ body{
 		width: 90%;
 	}
 	.vid{
-		width: 90%;
+		width: 80%;
 		height: 200px;
 		position: absolute;
-		right: 5%;
+		right: 10%;
 		top: 510px;	
 		padding: 20px 0px 50px;
 	}
@@ -357,9 +357,9 @@ body{
 		height: 200px;
 	}
 	.anlist{
-		width: 90%;
+		width: 80%;
 		position: absolute;
-		right: 5%;
+		right: 10%;
 		top: 270px;
 		font-family: "仿宋";
 	}
@@ -375,10 +375,10 @@ body{
 	.anbox {
 		border-radius: 5px;
 		overflow: hidden;
-		width: 90%;
+		width: 80%;
 		height: 400px;
 		position: absolute;
-		right: 5%;
+		right: 10%;
 		top: 1140px;
 		background:none;
 		margin-bottom: 30px;
