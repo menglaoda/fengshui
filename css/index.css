@@ -376,21 +376,22 @@ body{
 		border-radius: 5px;
 		overflow: hidden;
 		width: 90%;
-		height: 360px;
+		height: 400px;
 		position: absolute;
 		right: 5%;
 		top: 1140px;
-		background: #fbf7f4;
+		background:none;
 		margin-bottom: 30px;
 		font-family: "仿宋";	
 	}
 	.anbox p{
 		display: inline-block;
 		width: 96%;
-		height: 180px;
+		height: 150px;
 	    padding: 10px 2%;
 		text-indent: 32px;
 		line-height: 20px;
+		background: #fbf7f4;
 		position: absolute;
 		top: 200px;
 	}
