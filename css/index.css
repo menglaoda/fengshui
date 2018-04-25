@@ -326,13 +326,13 @@ body{
     }
     .nav li{
     	width: 33%;
-    	font-size: 12px;
+    	font-size: 16px;
     }
     .nav li span{
     	width: 100%;
     	text-align: center;
     	display: inline-block;
-		font-size: 16px;
+		font-size: 20px;
 		font-weight: 900;
 	}
     .content{
