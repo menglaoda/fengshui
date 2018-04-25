@@ -327,6 +327,9 @@ body{
     	width: 33%;
     }
     .nav li span{
+    	width: 100%;
+    	text-align: center;
+    	display: inline-block;
 		font-size: 16px;
 		font-weight: 900;
 	}
