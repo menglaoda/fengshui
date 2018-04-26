@@ -378,6 +378,7 @@ body{
 		position: absolute;
 		right: 10%;
 		top: 1140px;
+		z-index: 99;
 		background:none;
 		margin-bottom: 30px;
 		border-radius: 5px;
