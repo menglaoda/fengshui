@@ -419,7 +419,7 @@ body{
 	.jieda li{
 		width: 96%;
 		border: dashed 1px #666;
-		box-shadow: 2px 2px 2px 2px #ecdfcc;
+		box-shadow: 2px 2px 2px 2px #ceb78e;
 		background: #fbf7f4;
 		padding: 10px 2% ;
 		float: none;
@@ -430,6 +430,7 @@ body{
 	.jieda .backimg{
 		width: 100px;
 		height: 100px;
+		box-shadow: 0px 0px 0px 0px #ecdfcc;
 		position: absolute;
 		right:50%;
 		top: -100px;
