@@ -15,6 +15,7 @@ html,body{
 }
 body{
 	font-family:"仿宋",gbg;	
+	max-width: 9999px;
 }
 .bjimg{
 	width: 100%;
