@@ -89,7 +89,7 @@ body{
 	height: 200px;
 	border: none;
 }
-.anlist{
+.allist{
 	width: 825px;
 	position: absolute;
 	right: 6%;
@@ -97,7 +97,7 @@ body{
 	list-style: none;	
 	font-family: arial;
 }
-.anlist li{
+.allist li{
 	width: 250px;
 	height: 260px;
 	overflow: hidden;
@@ -108,19 +108,19 @@ body{
 	background: #fbf7f4;
 	border-radius: 5px;
 }
-.anlist img{
+.allist img{
 	width: 100%;
 	height: 180px;
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
 }
-.anlist p{
+.allist p{
 	width: 96%;
 	margin: 0 auto;
 	margin-top: 4px;
 	text-indent: 32px;
 }
-.asnbox {
+.albox {
 	border-radius: 5px;
 	overflow: hidden;
 	width: 800px;
@@ -131,7 +131,7 @@ body{
 	background: #fbf7f4;
 	font-family: arial;	
 }
-.asnbox p{
+.albox p{
 	display: inline-block;
 	width: 360px;
 	height: 180px;
@@ -140,7 +140,7 @@ body{
 	line-height: 20px;
 	float: left;
 }
-.asnbox img{
+.albox img{
 	width: 400px;
 	height: 200px;
 	float: left;
@@ -336,34 +336,34 @@ body{
 		font-weight: 900;
 	}
     .content{
-		width: 90%;
+		width: 86%;
 		position: absolute;
-		right: 5%;
-		top: 230px;
+		right: 7%;
+		top: 250px;
 	}
 	.content img{
 		width: 90%;
 	}
 	.vid{
-		width: 80%;
+		width: 86%;
 		height: 200px;
 		position: absolute;
-		right: 10%;
-		top: 510px;	
-		padding: 20px 0px 50px;
+		right: 7%;
+		top: 550px;	
+		padding: 00px 0px 30px;
 	}
 	.vid video{
 		width: 100%;
 		height: 200px;
 	}
-	.anlist{
-		width: 80%;
+	.allist{
+		width: 86%;
 		position: absolute;
-		right: 10%;
-		top: 680px;
+		right: 7%;
+		top: 280px;
 		font-family: "仿宋";
 	}
-	.anlist li{
+	.allist li{
 		width: 100%;
 		float: none;
 		margin-left: 0;
@@ -372,19 +372,18 @@ body{
 		background: #fbf7f4;
 		border-radius: 5px;
 	}
-	.asnbox {
+	.albox {
 		overflow: visible;
-		width: 80%;
+		width: 86%;
 		position: absolute;
-		right: 10%;
-		top: 280px;
-		z-index: 99;
+		right: 7%;
+		top: 1150px;
 		background:none;
 		margin-bottom: 30px;
 		border-radius: 5px;
 		font-family: "仿宋";	
 	}
-	.asnbox p{
+	.albox p{
 		display: inline-block;
 		width: 96%;
 		height: 150px;
@@ -398,7 +397,7 @@ body{
 		position: absolute;
 		top: 200px;
 	}
-	.asnbox img{
+	.albox img{
 		border-top-left-radius: 5px;
 		border-top-right-radius: 5px;
 		width: 100%;
