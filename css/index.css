@@ -37,6 +37,11 @@ body{
 	right: 10%;
 	top: 60px;
 }
+@media all and (max-width: 780px) {
+	.nav{
+		right: 5%;
+	}
+}
 .nav li{
 	width: 100px;
 	height: 45px;
