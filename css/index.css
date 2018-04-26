@@ -315,7 +315,8 @@ body{
 }
 @media all and (max-width: 415px) {
 	.bjimg{
-		background: url(../img/bb2.jpg) no-repeat #fdfdf5 ;
+		background: url(../img/bb2.jpg)  #fdfdf5 ;
+		background-size: 100% 100%;
 	}
 	.logo{
 		width: 80px;
