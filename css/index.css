@@ -375,6 +375,7 @@ body{
 	.allast {
 		overflow: visible;
 		width: 86%;
+		height: 400px;
 		position: absolute;
 		right: 7%;
 		top: 1150px;
@@ -404,5 +405,48 @@ body{
 		height: 200px;
 		position: absolute;
 		top: 0px;
+	}
+	.jieda{
+	    width: 86%;
+		height: 950px;
+		position: absolute;
+		right: 7%;
+		top: 353px;
+		list-style: none;	
+		font-family: "新宋体";
+		font-size: 15px;
+	}
+	.jieda li{
+		width: 96%;
+		height: 190px;
+		border: dashed 1px #666;
+		background: #fbf7f4;
+		padding: 0px 2% 20px;
+		float: none;
+		margin-right: 0px;
+		margin-top: 20px;
+		border-radius: 10px;
+		overflow: hidden;
+	}
+	.jieda li p:first-child{
+		text-align: center;
+		padding: 10px 0px ;
+		font-size: 20px;
+		font-weight: 900;
+	}
+	.jieda .backimg{
+		width: 100px;
+		height: 100px;
+		position: absolute;
+		right:50%;
+		top: -100px;
+		margin-right: -50px;
+		border-radius: 50px;
+		padding: 0;
+		background: #faf6f3;
+	}
+	.jieda .backimg img{
+		width: 100px;
+		height: 100px;
 	}
 }
