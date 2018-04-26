@@ -147,7 +147,6 @@ body{
 }
 .jieda{
     width: 680px;
-	height: 400px;
 	position: absolute;
 	right: 8%;
 	top: 150px;
@@ -415,6 +414,7 @@ body{
 		list-style: none;	
 		font-family: "新宋体";
 		font-size: 15px;
+		padding-bottom: 20px;
 	}
 	.jieda li{
 		width: 96%;
