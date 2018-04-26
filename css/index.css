@@ -22,7 +22,6 @@ body{
 	position: fixed;
 	top: 0;
 	left: 0;
-	z-index: 1;
 	background: url(../img/timg.png) no-repeat #1d1916 ;
 	background-size: 100% 100%;
 }
@@ -121,7 +120,7 @@ body{
 	margin-top: 4px;
 	text-indent: 32px;
 }
-.anbox {
+.asnbox {
 	border-radius: 5px;
 	overflow: hidden;
 	width: 800px;
@@ -132,7 +131,7 @@ body{
 	background: #fbf7f4;
 	font-family: arial;	
 }
-.anbox p{
+.asnbox p{
 	display: inline-block;
 	width: 360px;
 	height: 180px;
@@ -141,7 +140,7 @@ body{
 	line-height: 20px;
 	float: left;
 }
-.anbox img{
+.asnbox img{
 	width: 400px;
 	height: 200px;
 	float: left;
@@ -373,7 +372,7 @@ body{
 		background: #fbf7f4;
 		border-radius: 5px;
 	}
-	.anbox {
+	.asnbox {
 		overflow: visible;
 		width: 80%;
 		position: absolute;
@@ -385,7 +384,7 @@ body{
 		border-radius: 5px;
 		font-family: "仿宋";	
 	}
-	.anbox p{
+	.asnbox p{
 		display: inline-block;
 		width: 96%;
 		height: 150px;
@@ -399,7 +398,7 @@ body{
 		position: absolute;
 		top: 200px;
 	}
-	.anbox img{
+	.asnbox img{
 		border-top-left-radius: 5px;
 		border-top-right-radius: 5px;
 		width: 100%;
