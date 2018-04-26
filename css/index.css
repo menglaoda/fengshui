@@ -419,8 +419,8 @@ body{
 	.jieda li{
 		width: 96%;
 		border: dashed 1px #666;
-		-webkit-box-shadow: 2px 2px 2px 2px #ceb78e;
-		box-shadow: 2px 2px 2px 2px #ceb78e;
+		-webkit-box-shadow: 0px 2px 2px 2px #ceb78e;
+		box-shadow: 0px 2px 2px 2px #ceb78e;
 		background: #fbf7f4;
 		padding: 10px 2% ;
 		float: none;
