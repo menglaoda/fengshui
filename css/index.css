@@ -199,9 +199,9 @@ body{
 }
 .pingjia_list li{
 	width: 680px;
-	height: 150px;
 	position: relative;
 	margin-top: 10px;
+	padding-bottom: 70px;
 }
 .pingjia_list img{
 	width: 100px;
@@ -218,7 +218,8 @@ body{
 	left: 130px;
 }
 .pingjia_list div{
-	position: absolute;
+	width: 450px;
+	position: relative;
 	top: 30px;
 	left: 130px;
     background: #f5edeb;
