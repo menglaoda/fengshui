@@ -130,6 +130,7 @@ body{
 	top: 430px;
 	background: #fbf7f4;
 	font-family: arial;	
+	margin-bottom: 24px;
 }
 .allast p{
 	display: inline-block;
@@ -149,7 +150,7 @@ body{
     width: 680px;
 	position: absolute;
 	right: 8%;
-	top: 150px;
+	top: 180px;
 	list-style: none;	
 	font-family: "新宋体";
 	font-size: 15px;
@@ -380,7 +381,6 @@ body{
 		right: 7%;
 		top: 1150px;
 		background:none;
-		margin-bottom: 30px;
 		border-radius: 5px;
 		font-family: "仿宋";	
 	}
