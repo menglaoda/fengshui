@@ -48,13 +48,15 @@ app.directive("myBtnup",function(){
 	return {		
 		link:function(scope,element,attrs,rootScope){			
 			element.on("click",function(){
+				var heyingbox = document.querySelector(".heyingbox");
+				var oimg = heyingbox.querySelector(".oimg");
 				var heyinglist = document.querySelector(".heyinglist");
 				var btnbox = document.querySelector(".btnbox");
 				var heyinglist_img = heyinglist.querySelectorAll("img");
 			    if(s>0){
 			    	 s--;
-			    	 console.log(s);
-			    	 heyinglist.style.left=660*-s+"px";
+			    	 console.log(oimg.offsetWidth);
+			    	 heyinglist.style.left=oimg.offsetWidth*-s+"px";
 			    }
 			})
 		}
@@ -65,13 +67,15 @@ app.directive("myBtnnext",function(){
 	return {		
 		link:function(scope,element,attrs,rootScope){
 			element.on("click",function(){
+				var heyingbox = document.querySelector(".heyingbox");
+				var oimg = heyingbox.querySelector(".oimg");
 				var heyinglist = document.querySelector(".heyinglist");
 				var btnbox = document.querySelector(".btnbox");
 				var heyinglist_img = heyinglist.querySelectorAll("img");
 			    if(s<2){
 			    	s++;
 			    	 console.log(s);
-			    	 heyinglist.style.left=660*-s+"px";
+			    	 heyinglist.style.left=oimg.offsetWidth*-s+"px";
 			    }
 			})
 		}

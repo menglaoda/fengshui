@@ -202,7 +202,6 @@ body{
 }
 .pingjia_list{
 	width: 680px;
-	height: 400px;
 	position: absolute;
 	right: 8%;
 	top: 150px;
@@ -280,7 +279,7 @@ body{
     background-size: 50px 30px;
 	position: absolute;
 	top: 15px;
-	left: 0px;
+	left: 1px;
 }
 .btnbox .btnnext{
 	cursor: pointer;
@@ -304,13 +303,17 @@ body{
 }
 .heyinglist img{
 	float: left;
+	box-sizing: border-box;
 	border:  solid 1px white;
-	width: 98px;
-	height: 58px;
+	width: 100px;
+	height: 60px;
 	margin-right: 10px;
 }
 .heyinglist img:nth-child(4){
 	border:  solid 1px red;
+}
+.heyinglist img:nth-child(6n){
+	margin: 0;
 }
 .heyinglist img:last-child{
 	margin: 0;
@@ -461,7 +464,7 @@ body{
 	    width: 86%;
 		position: absolute;
 		right: 7%;
-		top: 353px;
+		top: 370px;
 		list-style: none;	
 		font-family: "新宋体";
 		font-size: 15px;
@@ -470,8 +473,8 @@ body{
 	.jieda li{
 		width: 96%;
 		border: dashed 1px #666;
-		-webkit-box-shadow: 0px 2px 2px 2px #ceb78e;
-		box-shadow: 0px 2px 2px 2px #ceb78e;
+		-webkit-box-shadow: 0px 4px 2px 2px #ceb78e;
+		box-shadow: 0px 4px 2px 2px #ceb78e;
 		background: #fbf7f4;
 		padding: 10px 2% ;
 		float: none;
@@ -496,5 +499,75 @@ body{
 		width: 100px;
 		height: 100px;
 	}
-	
+	.pingjia_list{
+		width: 86vw;
+		position: absolute;
+		right: 7vw;
+		top: 280px;
+		list-style: none;
+		font-family: arial;
+		font-size: 14px;
+	}
+	.pingjia_list li{
+		width: 86vw;
+		position: relative;
+		margin-top: 10px;
+		padding-bottom: 70px;
+	}
+	.pingjia_list img{
+		width: 25vw;
+		height: 25vw;
+		border-radius: 50%;
+		vertical-align: top;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+	.pingjia_list span{
+		position: absolute;
+		top: 0px;
+		left: 30vw;
+	}
+	.pingjia_list div{
+		width: 53vw;
+		position: relative;
+		top: 30px;
+		left: 30vw;
+	    background: #f5edeb;
+		padding: 3vw 1vw 3vw 2vw;
+		text-indent: 28px;
+		border-radius: 6px;
+	}
+	.pingjia_list div::after{
+		content: "";
+		width: 0px;
+		height: 0px;
+		border: solid 8px transparent;
+		border-right-width: 20px;
+		border-right-color: #f5edeb;
+		transform: rotate(30deg);
+		position: absolute;
+		left: -20px;
+		top: 10px;
+	}
+	.heyingbox{
+		width: 90vw;
+		right: 5vw;
+		top: 280px;
+	}
+	.heyingbox img{
+		width: 90vw;
+		height: 60vw;
+	}
+	.btnbox{
+		width: 90vw;
+	}
+	.heyinglist{
+		width: 270vw;
+	}
+	.heyinglist img{
+		width: 15vw;
+		height: 60px;
+		margin-right: 0;
+	}
 }
