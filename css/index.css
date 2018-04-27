@@ -82,23 +82,24 @@ body{
 	background-size: 100% 70px;
 }
 .content{
-	width: 300px;
-	height: 250px;
+	width: 600px;
 	position: absolute;
-	right: 24%;
+	right: 12%;
 	top: 150px;
 	text-align: center;
 	line-height: 24px;
 }
 .content img{
-	width: 280px;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
 }
 .vid{
 	width: 300px;
 	height: 200px;
 	position: absolute;
-	right: 6%;
-	top: 400px;	
+	right: -90px;
+	top: 280px;	
 	padding: 0px 10px;
 }
 .vid video{
@@ -397,21 +398,22 @@ body{
 		font-weight: 100;
 	}
     .content{
-		width: 86%;
+		width: 86vw;
 		position: absolute;
-		right: 7%;
-		top: 250px;
+		right: 7vw;
+		top: 280px;
 	}
 	.content img{
-		width: 90%;
+		width: 70vw;
+		height: 70vw;
 	}
 	.vid{
-		width: 86%;
+		width: 86vw;
 		height: 200px;
-		position: absolute;
+		position: static;
 		right: 7%;
 		top: 550px;	
-		padding: 00px 0px 30px;
+		padding: 30px 0px 30px;
 	}
 	.vid video{
 		width: 100%;
