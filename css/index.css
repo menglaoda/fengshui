@@ -578,4 +578,16 @@ body{
 		height: 60px;
 		margin-right: 0;
 	}
+	.meiti{
+		width: 80vw;
+		position: absolute;
+		right: 10vw;
+		top: 300px;
+	}
+	.danwei{
+		width: 80vw;
+		position: absolute;
+		right: 10vw;
+		top: 300px;
+	}
 }
