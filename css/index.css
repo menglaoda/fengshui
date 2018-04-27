@@ -383,8 +383,8 @@ body{
 		width: 80px;
 	}
 	.nav{
-		width: 90%;
-		left: 5%;
+		width: 96%;
+		left: 2%;
     }
     .nav li{
     	width: 33%;
@@ -396,6 +396,9 @@ body{
     	display: inline-block;
 		font-size: 20px;
 		font-weight: 100;
+	}
+	.nav em{
+		display:none;
 	}
     .content{
 		width: 86vw;
