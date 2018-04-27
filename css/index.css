@@ -74,6 +74,7 @@ body{
 	background: #999;
 	background: darkgreen;
 	color: white;
+	font-family: "微软雅黑";
 }
 .nav li:hover{
 	color: white;
