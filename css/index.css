@@ -256,10 +256,15 @@ body{
 	position: absolute;
 	right: 12%;
 	top: 180px;
+	margin-bottom: 20px;
 }
 .heyingbox img{
 	width: 650px;
 	height: 320px;
+}
+.heyingbox .oimg{
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
 }
 .btnbox{
 	height: 60px;
@@ -267,6 +272,8 @@ body{
 	position: relative;
 	overflow: hidden;
 	top: 6px;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
 }
 .btnbox .btnup{
 	width: 20px;
